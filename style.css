@@ -1,0 +1,22 @@
+#GameBoard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.card {
+  margin: 10px;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card.hidden p {
+  visibility: hidden;
+}
+.card.show p {
+  visibility: visible;
+}
+
+.card.hidden {
+  background-color: red;
+}
