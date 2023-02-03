@@ -1,6 +1,17 @@
 /*  1 2
     2 1
  */
+
+/* TO DO list
+- gérer l'aléatoire dans le placement des images
+- Pouvoir choisir le nombre de cartes en jeu
+- gérer les débuts et fins de parties
+- ajouter une animation (exemple confettis) lors de victoire
+- Pouvoir relancer une partie
+- gérer le bug du click deux fois sur une même image
+- Compter le nombre de coups pour gagner (stocker les stats en cookies ?) */
+
+// déclarer un tableau de toutes les cartes
 let jeuTableau;
 let allCards = document.querySelectorAll(".card");
 let cptClickCurrent = 0;
